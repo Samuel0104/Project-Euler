@@ -18,7 +18,7 @@ def gcd(a: int, b: int) -> int:
 
 def lcm(a: int, b: int) -> int:
     """
-    Returns the lowest common
-    multiple of a and b
+    Returns the lowest positive
+    common multiple of a and b
     """
-    return a*b//gcd(a, b)
+    return abs(a*b//gcd(a, b))
