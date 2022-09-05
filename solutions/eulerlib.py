@@ -6,3 +6,19 @@ def isPal(string: str) -> bool:
     is a palindrome
     """
     return string == string[::-1]
+
+def gcd(a: int, b: int) -> int:
+    """
+    Returns the greatest common
+    divisor of a and b
+    """
+    if a%b == 0:
+        return abs(b)
+    return gcd(b, a%b)
+
+def lcm(a: int, b: int) -> int:
+    """
+    Returns the lowest common
+    multiple of a and b
+    """
+    return a*b//gcd(a, b)
