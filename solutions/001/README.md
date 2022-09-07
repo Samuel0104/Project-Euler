@@ -1,5 +1,5 @@
-# Multiples of 3 or 5
-## _Problem 1_
+# Problem 1
+## _Multiples of 3 or 5_
 
 
 
