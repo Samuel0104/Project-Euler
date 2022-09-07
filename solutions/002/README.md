@@ -1,5 +1,5 @@
-# Even Fibonacci numbers
-## _Problem 2_
+# Problem 2
+## _Even Fibonacci numbers_
 
 
 
