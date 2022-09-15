@@ -22,3 +22,17 @@ def lcm(a: int, b: int) -> int:
     common multiple of a and b
     """
     return abs(a*b//gcd(a, b))
+
+def isPrime(int: n) -> bool:
+    """
+    Tests if n is a
+    prime number
+    """
+    if n < 2:
+        return False
+    if n == 2:
+        return True
+    for i in range(3, int(n**0.5) + 1, 2):
+        if n%i == 0:
+            return False
+    return True
