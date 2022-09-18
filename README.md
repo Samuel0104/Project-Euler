@@ -6,3 +6,4 @@ Some solution programs include comments with a brief explanation of the mathemat
 
 Many solutions depend on my library module: [eulerlib.py](https://github.com/Samuel0104/Project-Euler/blob/main/solutions/eulerlib.py)
 
+![image](https://projecteuler.net/profile/Samuel_Moreno_Vahos.png)
