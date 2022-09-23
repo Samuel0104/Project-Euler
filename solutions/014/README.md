@@ -1,5 +1,5 @@
 # Problem 14
-## Longest Collatz sequence
+## _Longest Collatz sequence_
 
 The following iterative sequence is defined for the set of positive integers:
 
