@@ -1,6 +1,8 @@
 # Problem 11
 ## _Largest product in a grid_
 
+
+
 In the $20 \times 20$ grid below, four numbers along a diagonal line have been marked in red.
 
 <p align="center">
