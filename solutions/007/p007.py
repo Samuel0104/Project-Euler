@@ -2,12 +2,12 @@ from eulerlib import time, isPrime
 initial = time()
 
 count = 1
-n = 1
+ans = 1
 while count < 10001:
-    n += 2
-    if isPrime(n):
+    ans += 2
+    if isPrime(ans):
         count += 1
-print(n)
+print(ans)
 
 final = time()
 print(f"\nTime: {final-initial}")
