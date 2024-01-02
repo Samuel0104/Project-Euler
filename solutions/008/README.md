@@ -1,6 +1,8 @@
 # Problem 8
 ## _Largest product in a series_
 
+
+
 The four adjacent digits in the $1000$-digit number that have the greatest product are $9 \times 9 \times 8 \times 9 = 5832$.
 
 <p align="center">
