@@ -73,3 +73,21 @@ def numCollatz(n: int) -> int: # 14
             n = 3*n + 1
         it += 1
     return it
+
+def fact(n: int) -> int:
+    """
+    Returns the
+    factorial of n
+    """
+    prod = 1
+    for i in range(2, n + 1):
+        prod *= i
+    return prod
+
+def comb(n: int, k: int) -> int: # 15
+    """
+    Returns the number of
+    k-combinations of a set
+    with n elements, C(n, k)
+    """
+    return fact(n)//(fact(n - k)*fact(k))
