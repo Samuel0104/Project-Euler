@@ -5,7 +5,7 @@
 
 The following iterative sequence is defined for the set of positive integers:
 
-<li list-style-type="none;">$n \rightarrow n/2$ ($n$ is even)</li>
+<li>$n \rightarrow n/2$ ($n$ is even)</li>
 <li>$n \rightarrow 3n + 1$ ($n$ is odd)</li>
 
 Using the rule above and starting with $13$, we generate the following sequence:
