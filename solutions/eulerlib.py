@@ -91,3 +91,18 @@ def comb(n: int, k: int) -> int: # 15
     with n elements, C(n, k)
     """
     return fact(n)//(fact(n - k)*fact(k))
+
+def divisorSum(n: int) -> int: # 21
+    """
+    Returns the sum of
+    proper divisors of n
+    """
+    if n == 1:
+        return 0
+    s = 1
+    for factor in range(2, int(n**0.5) + 1):
+        if n%factor == 0:
+            s += factor
+            if n/factor != factor:
+                s += n//factor
+    return s
