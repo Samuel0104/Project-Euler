@@ -92,7 +92,7 @@ def comb(n: int, k: int) -> int: # 15
     """
     return fact(n)//(fact(n - k)*fact(k))
 
-def divisorSum(n: int, proper=True) -> int: # 21
+def divisorSum(n: int, proper=True) -> int: # 21, 23
     """
     Returns the sum
     of divisors of n
