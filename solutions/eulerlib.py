@@ -74,7 +74,7 @@ def numCollatz(n: int) -> int: # 14
         it += 1
     return it
 
-def fact(n: int) -> int:
+def fact(n: int) -> int: # 24
     """
     Returns the
     factorial of n
