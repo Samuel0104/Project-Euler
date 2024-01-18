@@ -9,13 +9,17 @@ $$1, 3, 6, 10, 15, 21, 28, 36, 45, 55, \dots$$
 
 Let us list the factors of the first seven triangle numbers:
 
-     1: 1
-     3: 1,3
-     6: 1,2,3,6
-    10: 1,2,5,10
-    15: 1,3,5,15
-    21: 1,3,7,21
-    28: 1,2,4,7,14,28
+$$
+\begin{align}
+     \mathbf 1 &\colon 1\\
+     \mathbf 3 &\colon 1, 3\\
+     \mathbf 6 &\colon 1, 2, 3, 6\\
+     \mathbf{10} &\colon 1, 2, 5, 10\\
+     \mathbf{15} &\colon 1, 3, 5, 15\\
+     \mathbf{21} &\colon 1, 3, 7, 21\\
+     \mathbf{28} &\colon 1, 2, 4, 7, 14, 28
+\end{align}
+$$
 
 We can see that $28$ is the first triangle number to have over five divisors.
 
