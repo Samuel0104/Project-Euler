@@ -108,3 +108,17 @@ def divisorSum(n: int, proper=True) -> int: # 21, 23
             if n/factor != factor:
                 s += n//factor
     return s
+
+def nextPrime(n: int) -> int: # 26
+    """
+    Returns the smallest
+    prime larger than n
+    """
+    if n < 2:
+        return 2
+    if n == 2:
+        return 3
+    n += 2
+    if isPrime(n):
+        return n
+    return nextPrime(n)
