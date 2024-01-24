@@ -1,12 +1,12 @@
 from eulerlib import time
 initial = time()
 
-Fib = [1, 2]
+seq = [1, 2]
 ans = 2
-while Fib[-1] < 4000000:
-    Fib.append(Fib[-1] + Fib[-2])
-    if Fib[-1]%2 == 0:
-        ans += Fib[-1]
+while seq[-1] < 4000000:
+    seq.append(seq[-2] + seq[-1])
+    if seq[-1]%2 == 0:
+        ans += seq[-1]
 print(ans)
 
 final = time()
