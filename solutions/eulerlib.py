@@ -122,3 +122,10 @@ def nextPrime(n: int) -> int: # 26
     if isPrime(n):
         return n
     return nextPrime(n)
+
+def isPandig(string: str) -> bool: # 32
+    """
+    Tests if a string
+    is 1-9 pandigital
+    """
+    return sorted(string) == list("123456789")
