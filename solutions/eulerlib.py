@@ -23,7 +23,7 @@ def lcm(a: int, b: int) -> int: # 5
     """
     return abs(a*b//gcd(a, b))
 
-def isPrime(n: int) -> bool: # 7, 10, 27
+def isPrime(n: int) -> bool: # 7, 10, 27, 37
     """
     Tests if n is a
     prime number
