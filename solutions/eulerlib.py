@@ -7,7 +7,7 @@ def isPal(string: str) -> bool: # 4
     """
     return string == string[::-1]
 
-def gcd(a: int, b: int) -> int:
+def gcd(a: int, b: int) -> int: # 33
     """
     Returns the greatest common
     divisor of a and b
