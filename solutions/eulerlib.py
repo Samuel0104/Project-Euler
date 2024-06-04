@@ -123,7 +123,7 @@ def nextPrime(n: int) -> int: # 26
         return n
     return nextPrime(n)
 
-def isPandig(string: str) -> bool: # 32
+def isPandig(string: str) -> bool: # 32, 38
     """
     Tests if a string
     is 1-9 pandigital
