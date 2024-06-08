@@ -11,13 +11,13 @@ Let us list the factors of the first seven triangle numbers:
 
 $$
 \begin{align}
-     \mathbf 1 &\colon 1\\
-     \mathbf 3 &\colon 1, 3\\
-     \mathbf 6 &\colon 1, 2, 3, 6\\
-     \mathbf{10} &\colon 1, 2, 5, 10\\
-     \mathbf{15} &\colon 1, 3, 5, 15\\
-     \mathbf{21} &\colon 1, 3, 7, 21\\
-     \mathbf{28} &\colon 1, 2, 4, 7, 14, 28
+    \mathbf 1 &\colon 1\\
+    \mathbf 3 &\colon 1, 3\\
+    \mathbf 6 &\colon 1, 2, 3, 6\\
+    \mathbf{10} &\colon 1, 2, 5, 10\\
+    \mathbf{15} &\colon 1, 3, 5, 15\\
+    \mathbf{21} &\colon 1, 3, 7, 21\\
+    \mathbf{28} &\colon 1, 2, 4, 7, 14, 28
 \end{align}
 $$
 
