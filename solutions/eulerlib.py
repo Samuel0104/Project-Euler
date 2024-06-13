@@ -129,3 +129,18 @@ def isPandig(string: str) -> bool: # 32, 38
     is 1-9 pandigital
     """
     return sorted(string) == list("123456789")
+
+def numPyth(p: int) -> int: # 39
+    """
+    Returns the number of
+    integer solutions for the
+    sides of a right triangle
+    with perimeter p
+    """
+    sols = 0
+    for a in range(1, p//3):
+        for b in range(a + 1, p//2):
+            c = (a*a + b*b)**0.5
+            if a + b + c == p:
+                sols += 1
+    return sols
